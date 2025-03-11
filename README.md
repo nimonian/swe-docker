@@ -31,6 +31,26 @@ then run your image in a container.
 
 Congratulations! You containerised the app :)
 
+## Running the app
+
+You don't have to run the app in order to containerise it, but if you'd like to
+see what it does, you can do
+
+```
+npm install
+npm run dev
+```
+
+and visit localhost:5173.
+
+If you don't have `node` and `npm` installed on your computer, no worries -
+we're going to containerise the app so it will run anywhere, regardless of what
+you do and don't have installed.
+
+> [!TIP]
+> 
+> This whole workshop, including the Docker parts, can be done in a Codespace.
+
 ## Containerisation: Part 2
 
 Now you can run apps inside containers, you should try to do the same to one of
@@ -45,6 +65,10 @@ in the framework you have used. Getting your Dockerfile right can take a bit of
 patience and searching - that's normal, don't get disheartened. Once you have a
 working Dockerfile, you can use it as the basis for other project in the same
 framework.
+
+Once you have a working image, why not publish it on [Docker Hub](https://hub.docker.com/)
+and get someone to pull and run it? And you can try pulling and running
+somebody else's app.
 
 ## Github Actions
 
